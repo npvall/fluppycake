@@ -1,0 +1,119 @@
+/* font */
+@font-face{
+    font-family: supercream;
+    src:url(Super\ Creamy\ Personal\ Use.ttf)
+}
+
+@font-face{
+    font-family: coffee;
+    src:url(Coffee\ Normal.ttf)
+}
+/* navbar */
+nav{
+    display: flex;
+    background-color:whitesmoke;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav h1{
+    padding: 20px;
+    font-family: supercream;
+    color: skyblue;
+    margin-left: 100px;
+}
+
+nav div img{
+    width: 100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: coffee;
+    color: skyblue;
+    font-weight: 500;
+    transition: all;
+    padding: 8px 0px;
+    transition-duration: 400ms;
+    border-bottom: 1px solid rgba(135, 207, 235, 0);
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid skyblue;
+
+}
+/* card */
+h1{
+    text-align: center;
+    font-family: coffee;
+    
+}
+.gcard{
+    display: flex;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: coffee;
+    margin-bottom: 30px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:  skyblue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+/* footer */
+.footer{
+    display: flex;
+    background-color: #fdd5fd;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.paragraf{
+    font-family: coffee;
+    margin-left: 60px;
+    justify-items: center;
+    margin-top: 40px;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    }
+
+.footer1{
+    gap: 60px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 50px;
+    text-decoration: none;
+}
+

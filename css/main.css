@@ -1,0 +1,147 @@
+/* font */
+@font-face{
+    font-family: supercream;
+    src:url(Super\ Creamy\ Personal\ Use.ttf)
+}
+
+@font-face{
+    font-family: coffee;
+    src:url(Coffee\ Normal.ttf)
+}
+/* navbar */
+nav{
+    display: flex;
+    background-color:whitesmoke;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav h1{
+    padding: 20px;
+    font-family: supercream;
+    color: skyblue;
+    margin-left: 100px;
+}
+
+nav div img{
+    width: 100px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: coffee;
+    color: skyblue;
+    font-weight: 500;
+    transition: all;
+    padding: 8px 0px;
+    transition-duration: 400ms;
+    border-bottom: 1px solid rgba(135, 207, 235, 0);
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid skyblue;
+
+}
+/* caraousel */
+.carousel-inner{
+    column-fill: auto;
+    font-family: coffee;
+}
+
+.carousel-inner{
+    color: black;
+}
+/* about us */
+.container-about {
+    font-family: coffee;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+.right-column {
+    text-align: right;
+}
+
+.about-us {
+    
+    margin-top: 70px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #f05089;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.read-more {
+    background-color: #f05089;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.right-column img {
+    width: 500px;
+    height: 380px;
+    float: right;
+    margin: 20px 20px 20px 20px;
+}
+/* Product */
+h4{
+    padding-top: 30px;
+    font-family: supercream;
+    text-align: center;
+}
+.container-produk {
+   text-align: center;
+   margin: 50px;
+   padding: 20px;
+}
+
+
+/* Footer */
+.footer{
+    display: flex;
+    background-color: #fdd5fd;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.paragraf{
+    font-family: coffee;
+    margin-left: 60px;
+    justify-items: center;
+    margin-top: 40px;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    }
+
+.footer1{
+    gap: 60px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 50px;
+    text-decoration: none;
+}
+
